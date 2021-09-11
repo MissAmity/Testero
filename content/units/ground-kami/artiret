@@ -1,0 +1,42 @@
+type: mech
+speed: 0.8
+health: 120
+armor: 1
+canBoost: false
+boostMultiplier: 1
+lightRadius: 40
+lightColor: 84f591   
+weapons: [
+  {
+    shake: 2
+    reload: 60
+    shootSound: explosion
+    x: 0
+    y: 0
+    mirror: false
+    bullet: {
+      type: ArtilleryBulletType
+      damage: 45
+      killShooter: true
+      knockback: 0.4
+      lifetime: 200
+      width: 10
+      height: 12
+      collides: false
+      collidesTiles: true
+      splashDamageRadius: 40
+      splashDamage: 70
+      backColor: ffffff
+      frontColor: f1b400
+      lightColor: f1b400
+      lightningColor: ffffff
+      lightning: 2
+      lightningLength: 5
+      hitShake: 2
+      lightRadius:15
+      lightOpacity: 0.6
+    
+  
+
+maxRange: 2
+}}]

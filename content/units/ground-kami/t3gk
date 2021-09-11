@@ -1,0 +1,49 @@
+type: mech
+hitSize: 36
+canBoost: false
+health: 2400
+armor: 20
+speed: 0.4
+lightRadius: 12
+lightColor: ff9200
+itemCapacity: 10
+aimDistance: 400
+weapons: [
+  {
+    name: t3gk-cannon
+    top: false
+    x: 16
+    y: 0
+    shootY: 18
+    reload: 28
+    recoil: 0.8
+    range: 14
+    shootSound: shotgun
+    bullet: {
+      type: standardDense
+      speed: 3
+      width: 12
+      height: 16
+      damage: 70
+      lifetime: 38
+      despawnEffect: none
+      shootEffect: shootBig2
+      hitEffect: explosion
+      fragBullets: 8
+      fragCone: 12
+      fragBullet: {
+        type: standardHoming
+        lifetime: 20
+        speed: 15
+        damage: 40
+        homingPower: 8
+        homingRange: 100
+        homingDelay: 15
+        width: 8
+        height: 14 
+        hitEffect: none
+        inaccuracy: 15
+      }       
+    }
+  }
+]

@@ -1,0 +1,25 @@
+type: mech
+health: 200
+speed: 2
+armor: 2
+canBoost: false
+weapons: [
+  {
+    name: amogus-weapon
+    top: false
+    x: 4.5
+    y: 3
+    recoil: 0.4
+    reload: 10
+    shake: 0.2
+    bullet: {
+      type: standardBullet
+      shootY: 3
+      shootX: 0.5
+      damage: 8
+      recoil: 0.3
+      firstShotDelay: 10
+      lifetime: 16
+    }
+  }
+]
