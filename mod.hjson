@@ -1,7 +1,7 @@
 name: "testero"
 displayName: "Testero"
 author: "Cato-1"
-description: "Testorone"
+description: "I'm trying"
 version: "1.0"
 minGameVersion: "130"
 dependencies: [ ]
