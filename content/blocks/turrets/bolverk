@@ -1,0 +1,59 @@
+type: ItemTurret
+consumes: {
+  power: 1000
+}
+size: 4
+range: 1300
+liquidCapacity: 24800
+health: 5867800
+reloadTime: 490
+recoilAmount: 5
+rotateSpeed: 1.2
+coolantUsage: 350
+coolantMultiplier: 0.02
+shootSound: bolverk-shoot
+shootShake: 5
+buildTime: 10000
+ammoPerUse: 10
+itemCapacity: 50
+ammoTypes: {
+  surge-alloy: {
+    type: LaserBulletType
+    shootY: 16
+    length: 1
+    largeHit: true
+    width: 1
+    damage: 1
+    lifetime: 130
+    shootEffect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 280
+      region: testero-bolverk-charge
+      sizeFrom: 70
+      sizeTo: 90
+      interp: circleIn
+    }
+    fragBullets: 1
+    fragCone: 0
+    fragBullet: {
+      type: LaserBulletType
+      shootSound: railgun
+      shootEffect: impactReactorExplosion
+      length: 1000
+      width: 80
+      damage: 10000
+      lifetime: 340
+      largeHit: true
+    }
+  }
+}
+category: turret
+research: foreshadow
+requirements: [
+  silicon/5000
+  copper/19000
+  titanium/10000
+  thorium/8000
+  surge-alloy/3000
+]

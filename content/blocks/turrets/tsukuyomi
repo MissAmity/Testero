@@ -1,0 +1,38 @@
+type: ItemTurret
+size: 4
+consumes: {
+  power: 1000
+}
+health: 600000
+rotateSpeed: 0
+shootCone: 360
+shots: 30
+ammoPerShot: 20
+itemCapacity: 100
+recoilAmount: 0
+burstSpacing: 12
+shootSound: laser
+shootX: 0
+shootY: 0
+ammoTypes: {
+  surge-alloy: {
+    type: RailBulletType
+      damage: 0
+      length: 200
+      fragBullets: 6
+      fragCone: 360
+      fragBullet: {
+        type: LightningBulletType
+        damage: 980
+        length: 35
+      }
+    }
+  }
+requirements: [
+silicon/7500
+thorium/10000
+surge-alloy/7800
+titanium/12000
+lead/18000
+]
+category: turret
