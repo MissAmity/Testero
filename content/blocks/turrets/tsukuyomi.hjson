@@ -6,16 +6,16 @@ consumes: {
 health: 600000
 reload: 800
 rotateSpeed: 0
-shootCone: 360
-shots: 30
 ammoPerShot: 20
 itemCapacity: 100
 recoilAmount: 0
-burstSpacing: 12
 shootSound: laser
 ammoTypes: {
   surge-alloy: {
     type: RailBulletType
+      shots: 30
+      shootCone: 360
+      burstSpacing: 4
       shootY: 0
       shootX: 0
       damage: 0
