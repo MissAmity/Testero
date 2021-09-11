@@ -10,7 +10,7 @@ weapons: [
   {
     x: 0
     y: 6.5
-    reload: 750
+    reload: 450
     shootSound: beam
     shootEffect: laser
     shots: 3
@@ -19,7 +19,7 @@ weapons: [
       damage: 250
       length: 350
       width: 9
-      lifetime: 400
+      lifetime: 270
       colorFrom: 61ff00
       colorTo: bcff95
     }
