@@ -13,12 +13,15 @@ weapons: [
     reload: 750
     shootSound: beam
     shootEffect: laser
+    shots: 3
     bullet: {
       type: LaserBulletType
       damage: 250
       length: 350
       width: 9
       lifetime: 400
+      colorFrom: 61ff00
+      colorTo: bcff95
     }
   }
 ]
