@@ -10,16 +10,18 @@ weapons: [
   {
     x: 0
     y: 6.5
+    mirror: false
     reload: 450
     shootSound: beam
     shootEffect: laser
     shots: 3
     bullet: {
       type: LaserBulletType
+      speed: 100
       damage: 250
-      length: 350
-      width: 9
-      lifetime: 270
+      length: 500
+      width: 14
+      lifetime: 230
       colorFrom: 61ff00
       colorTo: bcff95
     }
