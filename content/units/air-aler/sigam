@@ -1,0 +1,25 @@
+type: flying
+flying: true
+health: 50000
+speed: 0.8
+rotateSpeed: 1
+rotateShooting: true
+hitSize: 6
+armor: 120
+weapons: [
+  {
+    x: 0
+    y: 6.5
+    reload: 750
+    continuous: true
+    firstShotDelay: 100
+    shootSound: beam
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 250
+      length: 350
+      width: 9
+      lifetime: 680
+    }
+  }
+]

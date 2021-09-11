@@ -1,0 +1,59 @@
+type: flying
+health: 2000
+armor: 16
+speed: 0.8
+rotateSpeed: 1
+accel: 0.04
+drag: 0.018
+flying: true
+engineOffset: 46
+engineSize: 7.8
+hitSize: 6
+buildSpeed: 4
+drawShield: false
+commandLimit: 6
+lowAltitude: true
+weapons: [
+  {
+    name: octo-laser
+    shadow: 20
+    shake: 2
+    x: 0
+    y: 0
+    rotate: true
+    rotateSpeed: 3.5
+    reload: 160
+    mirror: false
+    shootSound: beam
+    continuos: true
+    shootY: 7
+    bullet: {
+      type: ContinuosLaserBulletType
+      damage: 700
+      hitEffect: none
+      drawSize: 280
+      lifetime: 400
+      shake: 1
+      shootEffect: none
+      smokeEffect: none
+      width: 80
+      length: 360
+      incendChance: 0.03
+      incendSpread: 5
+      incendAmount: 1
+      healPercent: 20.5
+      collidesTeam: true
+      colors: [84ff00, 84ff00, ffffff]
+      lightColor: 84ff00
+    }
+  }
+]
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 120
+    regen: 4
+    max: 7000
+    cooldown: 60
+  }
+]     
