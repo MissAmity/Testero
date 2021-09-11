@@ -11,15 +11,14 @@ weapons: [
     x: 0
     y: 6.5
     reload: 750
-    continuous: true
-    firstShotDelay: 100
     shootSound: beam
+    shootEffect: laser
     bullet: {
-      type: ContinuousLaserBulletType
+      type: LaserBulletType
       damage: 250
       length: 350
       width: 9
-      lifetime: 680
+      lifetime: 400
     }
   }
 ]
