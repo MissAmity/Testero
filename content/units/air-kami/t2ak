@@ -1,0 +1,37 @@
+type: flying
+hitSize: 18
+speed: 1.2
+health: 475
+armor: 15
+drag: 0.01
+rotateSpeed: 3
+flying: true
+engineOffset: 8
+circleTarget: true
+engineSize: 2
+lowAltitude: true
+lightRadius: 50
+lightColor: fffa00
+weapons: [
+  {
+    name: t2ak-mount
+    x: 1.75
+    y: -1.75
+    shootY: 3.25
+    rotate: true
+    rotateSpeed: 10
+    reload: 42
+    shootSound: shootBig
+    bullet: {
+      type: ShrapnelBulletType
+      healPercent: 8.5
+      length: 65
+      damage: 10
+      width: 8
+      serrations: 4
+      serrationWidth: 3
+      colorFrom: 00de00
+      colorTo: 00de00
+    }
+  }
+]    
