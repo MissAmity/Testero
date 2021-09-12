@@ -1,4 +1,6 @@
 type: flying
+engineSize: 10
+engineOffset: 37
 flying: true
 health: 46000
 speed: 0.8
@@ -12,16 +14,15 @@ weapons: [
     y: 6.5
     mirror: false
     reload: 450
-    shootSound: beam
+    shootSound: none
     shootEffect: laser
     shots: 3
     bullet: {
       type: LaserBulletType
-      speed: 100
       damage: 250
       length: 500
       width: 14
-      lifetime: 230
+      lifetime: 100
       colorFrom: 61ff00
       colorTo: bcff95
     }
