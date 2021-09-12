@@ -44,6 +44,8 @@ weapons: [
           sprite: circle-bullet
           speed: 1
           damage: 800
+        }
+      }
     }
   }
 ]
