@@ -17,18 +17,33 @@ weapons: [
     coolDowntime: 100
     shootSound: railgun
     firstShotDelay: 120
-    firstShotEffect: greenLaserCharge
+    firstShotEffect: explosion
     shootStatus: unmoving
     shootStatusDuration: 150
     bullet: {
       type: RailBulletType
       shootEffect: railShoot
-      damage: 600
+      damage: 0
       length: 500
       updateEffectSeg: 30
       updateEffect: railTrail
       colorFrom: 61ff00
       colorTo: bcff95
+      fragBullets: 1
+      fragCone: 0
+      fragBullet: {
+        type: LaserBulletType
+        damage: 0
+        width: 0.1
+        length: 0.1
+        lifetime: 150
+        fragBullets: 1
+        fragCone: 0
+        fragBullet: {
+          type: EmpBulletType
+          sprite: circle-bullet
+          speed: 1
+          damage: 800
     }
   }
 ]
