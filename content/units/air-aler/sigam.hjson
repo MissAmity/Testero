@@ -13,17 +13,20 @@ weapons: [
     x: 0
     y: 6.5
     mirror: false
-    reload: 240
-    shootSound: none
-    shootEffect: laser
-    shots: 3
-    shootCone: 12
+    reload: 500
+    coolDowntime: 100
+    shootSound: railgun
+    firstShotDelay: 120
+    firstShotEffect: greenLaserCharge
+    shootStatus: unmoving
+    shootStatusDuration: 150
     bullet: {
-      type: LaserBulletType  
+      type: RailBulletType
+      shootEffect: railShoot
       damage: 600
       length: 500
-      width: 30
-      lifetime: 100
+      updateEffectSeg: 30
+      updateEffect: railTrail
       colorFrom: 61ff00
       colorTo: bcff95
     }
