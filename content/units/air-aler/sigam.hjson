@@ -13,13 +13,14 @@ weapons: [
     x: 0
     y: 6.5
     mirror: false
-    reload: 450
+    reload: 240
     shootSound: none
     shootEffect: laser
+    shots: 3
+    shootCone: 12
     bullet: {
-      type: LaserBulletType
-      shots: 3
-      damage: 250
+      type: LaserBulletType  
+      damage: 600
       length: 500
       width: 30
       lifetime: 100
