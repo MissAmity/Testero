@@ -26,7 +26,7 @@ ammoTypes: {
         type: RailBulletType
         damage: 1
         length: 1000
-        frag bullets: 8
+        fragBullets: 8
         fragCone: 180
         fragBullet: {
           type: LightningBulletType
