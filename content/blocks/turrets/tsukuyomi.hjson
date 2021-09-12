@@ -4,6 +4,9 @@ consumes: {
   power: 1000
 }
 health: 600000
+shots: 40
+shootCone: 360
+burstSpacing: 4
 reload: 800
 rotateSpeed: 0
 ammoPerShot: 20
@@ -13,13 +16,10 @@ shootSound: laser
 ammoTypes: {
   surge-alloy: {
     type: RailBulletType
-      shots: 30
-      shootCone: 360
-      burstSpacing: 4
       shootY: 0
       shootX: 0
-      damage: 0
-      length: 200
+      damage: 1
+      length: 2000
       fragBullets: 6
       fragCone: 360
       fragBullet: {
