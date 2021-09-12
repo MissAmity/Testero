@@ -19,15 +19,14 @@ ammoTypes: {
       shootY: 0
       shootX: 0
       damage: 1
-      length: 2000
       fragBullets: 18
-      fragCone: 180
+      fragCone: 360
       fragBullet: {
-        type: RailBulletType
+        type: LightningBulletType
         damage: 1
         length: 1000
         fragBullets: 8
-        fragCone: 180
+        fragCone: 360
         fragBullet: {
           type: LightningBulletType
           damage: 900
