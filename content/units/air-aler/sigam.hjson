@@ -63,6 +63,9 @@ weapons: [
           splashDamage: 800
           splashDamageRadius: 18
           unitDamageScl: 1
+          status: electrified
+          lightOpacity: 0.7
+          hitSound: plasmaboom
         }
       }
     }
