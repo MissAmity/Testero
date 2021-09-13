@@ -35,6 +35,7 @@ weapons: [
       colorTo: bcff95
       fragBullets: 1
       fragCone: 0
+      spin: 0.5
       fragBullet: {
         type: LaserBulletType
         damage: 0
