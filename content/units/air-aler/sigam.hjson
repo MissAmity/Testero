@@ -48,7 +48,8 @@ weapons: [
         fragCone: 0
         fragBullet: {
           type: EmpBulletType
-          radius: 180
+          applyEffect: electrified
+          radius: 100
           sprite: circle-bullet
           speed: 0.8
           damage: 1200
