@@ -26,8 +26,8 @@ weapons: [
       damage: 0
       width: 10
       length: 10
-      speed: 50
-      sprite: sigam-emp
+      speed: 25
+      sprite: testero-sigam-emp
       updateEffectSeg: 30
       updateEffect: railTrail
       collidesTile: true
@@ -43,7 +43,7 @@ weapons: [
         damage: 0
         width: 0.01
         length: 0.01
-        lifetime: 100
+        lifetime: 200
         fragBullets: 1
         fragCone: 0
         fragBullet: {
@@ -68,9 +68,23 @@ weapons: [
           splashDamageRadius: 100
           unitDamageScl: 1
           status: electrified
-          lightOpacity: 0.7
+          lightOpacity: 100
           hitSound: plasmaboom
           hitSoundVolume: 2.5
+          hitEffect: {
+            type: MultiEffect
+            effects: [
+              {
+                type: WaveFffect
+                sizeFrom: 0
+                sizeTo: 180
+                strokeFrom: 18
+                strokeTo: 0
+                colorFrom: 92ff54
+                colorTo: 92ff540
+              }
+            ]
+          }
         }
       }
     }
