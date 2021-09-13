@@ -17,7 +17,7 @@ weapons: [
     coolDowntime: 100
     shootSound: railgun
     firstShotDelay: 120
-    firstShotEffect: explosion
+    firstShotEffect: bigShockwave
     shootStatus: unmoving
     shootStatusDuration: 150
     bullet: {
@@ -25,17 +25,20 @@ weapons: [
       shootEffect: explosion
       damage: 0
       width: 10
-      length: 10
-      speed: 25
-      sprite: testero-sigam
-      updateEffectSeg: 30
-      updateEffect: railTrail
+      length: 12
+      speed: 8
+      trailInterval: 1.2
+      trailChance: 1
+      trailColor: 61ff00
+      sprite: circle-bullet
       collidesTile: true
       collides: true
       backColor: 61ff00
       frontColor: bcff95
       fragBullets: 1
       fragCone: 0
+      fragVelocityMin: 0
+      fragVelocityMax: 0
       spin: 0.5
       fragBullet: {
         type: LaserBulletType
@@ -46,6 +49,8 @@ weapons: [
         lifetime: 200
         fragBullets: 1
         fragCone: 0
+        fragVelocityMin: 0
+        fragVelocityMax: 0
         fragBullet: {
           type: EmpBulletType
           applyEffect: electrified
@@ -79,10 +84,11 @@ weapons: [
                 type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
-                strokeFrom: 8
-                strokeTo: 0
+                strokeFrom: 2
+                strokeTo: 2
                 colorFrom: 92ff54
                 colorTo: 92ff540
+                lifetime: 30
               }
             ]
           }
