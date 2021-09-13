@@ -22,7 +22,12 @@ weapons: [
     shootStatusDuration: 150
     bullet: {
       type: BasicBulletType
+      hittable: false
+      reflcetable: false
+      absorbable: false
+      maxRange: 30
       shootEffect: explosion
+      shrinkY: 0
       damage: 0
       width: 10
       length: 12
