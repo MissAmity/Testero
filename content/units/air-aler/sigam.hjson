@@ -30,13 +30,16 @@ weapons: [
       sprite: sigam-emp
       updateEffectSeg: 30
       updateEffect: railTrail
-      colorFrom: 61ff00
-      colorTo: bcff95
+      collidesTile: true
+      collides: true
+      backColor: 61ff00
+      frontColor: bcff95
       fragBullets: 1
       fragCone: 0
       spin: 0.5
       fragBullet: {
         type: LaserBulletType
+        keepVelocity: false
         damage: 0
         width: 0.01
         length: 0.01
@@ -67,6 +70,7 @@ weapons: [
           status: electrified
           lightOpacity: 0.7
           hitSound: plasmaboom
+          hitSoundVolume: 2.5
         }
       }
     }
