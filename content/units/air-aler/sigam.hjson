@@ -27,7 +27,7 @@ weapons: [
       width: 10
       length: 10
       speed: 25
-      sprite: testero-sigam-emp
+      sprite: testero-sigam
       updateEffectSeg: 30
       updateEffect: railTrail
       collidesTile: true
@@ -77,8 +77,8 @@ weapons: [
               {
                 type: WaveFffect
                 sizeFrom: 0
-                sizeTo: 180
-                strokeFrom: 18
+                sizeTo: 100
+                strokeFrom: 8
                 strokeTo: 0
                 colorFrom: 92ff54
                 colorTo: 92ff540
