@@ -22,12 +22,11 @@ weapons: [
     shootStatusDuration: 150
     bullet: {
       type: BasicBulletType
-      shootEffect: railShoot
+      shootEffect: explosion
       damage: 0
       width: 10
       length: 10
-      speed: 100
-      lifetime: 40
+      speed: 50
       sprite: sigam-emp
       updateEffectSeg: 30
       updateEffect: railTrail
@@ -46,6 +45,7 @@ weapons: [
         fragCone: 0
         fragBullet: {
           type: EmpBulletType
+          radius: 180
           sprite: circle-bullet
           speed: 0.8
           damage: 1200
@@ -55,14 +55,14 @@ weapons: [
           scaleVelocity: true
           hitEffect: hitEmpSpark
           lightRadius: 60
-          lifetime: 10
+          lifetime: 5
           clipSize: 250
           hitColor: 92ff54
           lightColor: 92ff54
           backColor: 92ff54
           frontColor: ffffff
           splashDamage: 800
-          splashDamageRadius: 18
+          splashDamageRadius: 100
           unitDamageScl: 1
           status: electrified
           lightOpacity: 0.7
