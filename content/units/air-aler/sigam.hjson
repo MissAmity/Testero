@@ -17,23 +17,24 @@ weapons: [
     coolDowntime: 100
     shootSound: railgun
     firstShotDelay: 120
-    firstShotEffect: bigShockwave
     shootStatus: unmoving
     shootStatusDuration: 150
     bullet: {
       type: BasicBulletType
+      hitEffect: none
       hittable: false
       reflcetable: false
       absorbable: false
       maxRange: 30
-      shootEffect: explosion
+      shootEffect: greenLaserCharge
       shrinkY: 0
       damage: 0
       width: 10
       length: 12
       speed: 8
       trailInterval: 1.2
-      trailChance: 1
+      trailEffect: railTrail
+      trailChance: 1.2
       trailColor: 61ff00
       sprite: circle-bullet
       collidesTile: true
@@ -62,7 +63,7 @@ weapons: [
           radius: 100
           sprite: circle-bullet
           speed: 0.8
-          damage: 1200
+          damage: 1000
           powerDamageScl: 4
           timeDuration: 40
           timeIncrease: 2
@@ -75,7 +76,7 @@ weapons: [
           lightColor: 92ff54
           backColor: 92ff54
           frontColor: ffffff
-          splashDamage: 800
+          splashDamage: 1200
           splashDamageRadius: 100
           unitDamageScl: 1
           status: electrified
@@ -89,21 +90,21 @@ weapons: [
                 type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
-                strokeFrom: 2
-                strokeTo: 2
                 colorFrom: 92ff54
-                colorTo: 92ff540
-                lifetime: 30
+                colorTo: 92ff5425
+                lifetime: 40
+                interp: circleIn
+                sides: 5
               }
               {
                 type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
-                strokeFrom: 0
-                strokeTo: 10
                 colorFrom: 92ff54
-                colorTo: 92ff540
-                lifetime: 10
+                colorTo: 92ff5425
+                lifetime: 20
+                interp: circleIn
+                sides: 5
               }
             ]
           }
