@@ -25,18 +25,18 @@ weapons: [
       hittable: false
       reflcetable: false
       absorbable: false
-      maxRange: 30
-      shootEffect: greenLaserCharge
+      maxRange: 50
+      shootEffect: none
       shrinkY: 0
       damage: 0
       width: 10
       length: 12
       speed: 8
       trailInterval: 1.2
-      trailEffect: railTrail
+      trailEffect: shieldWave
       trailChance: 1.2
       trailColor: 61ff00
-      sprite: circle-bullet
+      sprite: none
       collidesTile: true
       collides: true
       backColor: 61ff00
@@ -90,21 +90,23 @@ weapons: [
                 type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
+                strokeFrom: 10
+                strokeTo: 0
                 colorFrom: 92ff54
                 colorTo: 92ff5425
                 lifetime: 40
                 interp: circleIn
-                sides: 5
               }
               {
                 type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
+                strokeFrom: 10
+                strokeTo: 0
                 colorFrom: 92ff54
                 colorTo: 92ff5425
                 lifetime: 20
                 interp: circleIn
-                sides: 5
               }
             ]
           }
