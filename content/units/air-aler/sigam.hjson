@@ -103,7 +103,7 @@ weapons: [
                 strokeTo: 10
                 colorFrom: 92ff54
                 colorTo: 92ff540
-                lifetime: 15
+                lifetime: 10
               }
             ]
           }
