@@ -6,7 +6,7 @@ health: 46000
 speed: 0.8
 rotateSpeed: 1
 rotateShooting: true
-hitSize: 6
+hitSize: 56
 armor: 120
 weapons: [
   {
@@ -94,6 +94,16 @@ weapons: [
                 colorFrom: 92ff54
                 colorTo: 92ff540
                 lifetime: 30
+              }
+              {
+               type: WaveFffect
+                sizeFrom: 0
+                sizeTo: 100
+                strokeFrom: 0
+                strokeTo: 10
+                colorFrom: 92ff54
+                colorTo: 92ff540
+                lifetime: 15
               }
             ]
           }
