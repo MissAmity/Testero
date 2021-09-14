@@ -96,7 +96,7 @@ weapons: [
                 lifetime: 30
               }
               {
-               type: WaveFffect
+                type: WaveFffect
                 sizeFrom: 0
                 sizeTo: 100
                 strokeFrom: 0
