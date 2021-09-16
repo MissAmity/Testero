@@ -21,6 +21,7 @@ weapons: [
     shootStatusDuration: 150
     bullet: {
       type: BasicBulletType
+      shootEffect: none
       hitEffect: none
       hittable: false
       reflcetable: false
@@ -29,22 +30,26 @@ weapons: [
       shootEffect: none
       shrinkY: 0
       damage: 0
-      width: 10
-      length: 12
+      width: 12
+      length: 10
       speed: 8
       trailInterval: 1.2
-      trailEffect: shieldWave
+      trailEffect: placeBlock
       trailChance: 1.2
       trailColor: ffa305
-      sprite: none
+      sprite: 
       collidesTile: true
       collides: true
       fragBullets: 1
       fragCone: 0
+      backColor: ffffff0
+      frontColor: ffffff0
       fragVelocityMin: 0
       fragVelocityMax: 0
       fragBullet: {
         type: LaserBulletType
+        backColor: ffffff0
+        frontColor: ffffff0
         keepVelocity: false
         damage: 0
         width: 0.01
@@ -63,7 +68,7 @@ weapons: [
           damage: 1000
           powerDamageScl: 4
           timeDuration: 40
-          timeIncrease: 2
+          timeIncrease: 4
           scaleVelocity: true
           hitEffect: hitEmpSpark
           lightRadius: 60
@@ -90,20 +95,8 @@ weapons: [
                 strokeFrom: 5
                 strokeTo: 0
                 colorFrom: 92ff54
-                colorTo: 92ff5425
-                lifetime: 40
-                interp: circleIn
-              }
-              {
-                type: WaveFffect
-                sizeFrom: 0
-                sizeTo: 100
-                strokeFrom: 1
-                strokeTo: 1
-                colorFrom: 92ff54
-                colorTo: 92ff5425
-                lifetime: 20
-                interp: circleIn
+                colorTo: 92ff54
+                lifetime: 150
               }
             ]
           }
