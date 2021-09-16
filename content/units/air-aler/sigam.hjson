@@ -18,7 +18,7 @@ weapons: [
     shootSound: none
     firstShotDelay: 120
     shootStatus: unmoving
-    shootStatusDuration: 150
+    shootStatusDuration: 300
     bullet: {
       type: BasicBulletType
       shootEffect: none
