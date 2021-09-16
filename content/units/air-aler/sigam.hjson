@@ -28,7 +28,6 @@ weapons: [
       reflcetable: false
       absorbable: false
       maxRange: 55
-      lifetime: 1000
       shootEffect: none
       shrinkY: 0
       damage: 0
@@ -82,7 +81,7 @@ weapons: [
           frontColor: ffffff
           splashDamage: 1200
           splashDamageRadius: 100
-          unitDamageScl: 1
+          unitDamageScl: 0.9
           status: electrified
           lightOpacity: 100
           hitSound: plasmaboom
@@ -95,10 +94,11 @@ weapons: [
                 sizeFrom: 3
                 sizeTo: 5
                 colorFrom: 92ff54
-                colorTo: 92ff54
+                colorTo: 92ff540
                 lifetime: 60
                 particles: 15
                 cone: 360
+                length: 20
               }
             ]
           }
