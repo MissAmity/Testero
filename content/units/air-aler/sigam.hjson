@@ -27,13 +27,13 @@ weapons: [
       hittable: false
       reflcetable: false
       absorbable: false
-      maxRange: 55
       shootEffect: none
       shrinkY: 0
       damage: 0
       width: 12
       length: 10
-      speed: 8
+      speed: 1
+      lifetime: 40
       trailInterval: 1.2
       trailEffect: placeBlock
       trailChance: 1.2
@@ -99,6 +99,7 @@ weapons: [
                 particles: 15
                 cone: 360
                 length: 20
+                interp: circleOut
               }
             ]
           }
