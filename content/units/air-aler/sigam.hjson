@@ -35,7 +35,7 @@ weapons: [
       speed: 8
       lifetime: 40
       trailInterval: 1.2
-      trailEffect: blockBuild
+      trailEffect: bigShockwave
       trailChance: 1.2
       trailColor: ffa305
       trailRotation: True
