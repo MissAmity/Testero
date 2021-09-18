@@ -30,14 +30,15 @@ weapons: [
       shootEffect: none
       shrinkY: 0
       damage: 0
-      width: 10
-      height: 12
-      speed: 1
+      width: 12
+      height: 10
+      speed: 8
       lifetime: 40
       trailInterval: 1.2
       trailEffect: placeBlock
       trailChance: 1.2
       trailColor: ffa305
+      trailRotation: True
       sprite: circle-bullet
       collidesTile: true
       collides: true
@@ -89,6 +90,7 @@ weapons: [
           hitEffect: none
           fragBullets: 6
           fragCone: 360
+          fragAngle: 360
           fragBullet: {
             type: BasicBulletType
             collides: false
@@ -97,8 +99,8 @@ weapons: [
             hitSound: laser
             despawnSound: laser
             damage: 0
-            width: 8
-            height: 10
+            width: 10
+            height: 8
             sprite: circle-bullet
             fragBullets: 1
             fragAngle: 180
@@ -106,9 +108,9 @@ weapons: [
             fragBullet: {
               type: LaserBulletType
               damage: 980
-              width: 7
+              width: 9
               length: 110
-              lifetime: 30
+              lifetime: 40
             }
           }
         }
