@@ -35,7 +35,7 @@ weapons: [
       speed: 8
       lifetime: 40
       trailInterval: 1.2
-      trailEffect: placeBlock
+      trailEffect: shockWave
       trailChance: 1.2
       trailColor: ffa305
       trailRotation: True
@@ -88,14 +88,15 @@ weapons: [
           hitSound: plasmaboom
           hitSoundVolume: 2.5
           hitEffect: none
-          fragBullets: 6
+          fragBullets: 24
           fragCone: 360
           fragAngle: 360
+          fragLifeMin: 75
+          fragLifeMax: 100
           fragBullet: {
             type: BasicBulletType
             collides: false
             speed: 1
-            lifetime: 100
             hitSound: laser
             despawnSound: laser
             damage: 0
@@ -107,7 +108,7 @@ weapons: [
             fragCone: 0
             fragBullet: {
               type: LaserBulletType
-              damage: 980
+              damage: 650
               width: 9
               length: 110
               lifetime: 40
