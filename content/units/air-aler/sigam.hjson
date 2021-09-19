@@ -63,7 +63,7 @@ weapons: [
         fragVelocityMax: 0
         fragBullet: {
           type: EmpBulletType
-          applyEffect: electrified
+          applyEffect: unmoving
           radius: 100
           sprite: circle-bullet
           speed: 0.8
@@ -83,7 +83,8 @@ weapons: [
           splashDamage: 1200
           splashDamageRadius: 100
           unitDamageScl: 0.9
-          status: electrified
+          status: unmoving
+          statusDuration: 300
           lightOpacity: 100
           hitSound: plasmaboom
           hitSoundVolume: 2.5
@@ -332,8 +333,8 @@ weapons: [
                                                       length: 110
                                                       lifetime: 10
                                                       fragAngle: 30
-                                                      fragCone: 0
-                                                      fragBullets: 1
+                                                      fragCone: 180
+                                                      fragBullets: 2
                                                       fragBullet: {
                                                         type: BasicBulletType
                                                         damage: 0
@@ -346,7 +347,7 @@ weapons: [
                                                         lifetime: 80
                                                         fragBullets: 12
                                                         fragAngle: 90
-                                                        fragCone: 0
+                                                        fragCone: 180
                                                         fragBullet: {
                                                           type:  LaserBulletType
                                                           damage: 650
