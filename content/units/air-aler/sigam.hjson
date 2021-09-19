@@ -63,7 +63,7 @@ weapons: [
         fragVelocityMax: 0
         fragBullet: {
           type: EmpBulletType
-          applyEffect: unmoving
+          applyEffect: electrified
           radius: 100
           sprite: circle-bullet
           speed: 0.8
