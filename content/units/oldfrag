@@ -1,0 +1,385 @@
+type: flying
+engineSize: 10
+engineOffset: 37
+flying: true
+health: 46000
+speed: 0.8
+rotateSpeed: 1
+rotateShooting: true
+hitSize: 56
+armor: 120
+weapons: [
+  {
+    x: 0
+    y: 6.5
+    mirror: false
+    reload: 500
+    coolDowntime: 100
+    shootSound: none
+    firstShotDelay: 120
+    shootStatus: unmoving
+    shootStatusDuration: 300
+    bullet: {
+      type: BasicBulletType
+      smokeEffect: none
+      shootEffect: none
+      hitEffect: none
+      hittable: false
+      reflcetable: false
+      absorbable: false
+      shootEffect: none
+      shrinkY: 0
+      damage: 0
+      width: 12
+      height: 10
+      speed: 8
+      lifetime: 40
+      trailInterval: 1.2
+      trailEffect: bigShockwave
+      trailChance: 1.2
+      trailColor: ffa305
+      trailRotation: True
+      sprite: circle-bullet
+      collidesTile: true
+      collides: true
+      fragBullets: 1
+      fragCone: 0
+      backColor: ffffff0
+      frontColor: ffffff0
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      fragBullet: {
+        type: LaserBulletType
+        backColor: ffffff0
+        frontColor: ffffff0
+        keepVelocity: false
+        damage: 0
+        width: 0.01
+        length: 0.01
+        lifetime: 200
+        fragBullets: 1
+        fragCone: 0
+        fragVelocityMin: 0
+        fragVelocityMax: 0
+        fragBullet: {
+          type: EmpBulletType
+          applyEffect: electrified
+          radius: 100
+          sprite: circle-bullet
+          speed: 0.8
+          damage: 750
+          powerDamageScl: 4
+          timeDuration: 40
+          timeIncrease: 4
+          scaleVelocity: true
+          hitEffect: hitEmpSpark
+          lightRadius: 60
+          lifetime: 5
+          clipSize: 250
+          hitColor: 92ff54
+          lightColor: 92ff54
+          backColor: 92ff54
+          frontColor: ffffff
+          splashDamage: 1200
+          splashDamageRadius: 100
+          unitDamageScl: 0.9
+          status: unmoving
+          statusDuration: 300
+          lightOpacity: 100
+          hitSound: plasmaboom
+          hitSoundVolume: 2.5
+          hitEffect: none
+          fragBullets: 1
+          fragCone: 0
+          fragAngle: 180
+          fragBullet: {
+            type: BasicBulletType
+            collides: false
+            speed: 1
+            lifetime: 100
+            hitSound: laser
+            despawnSound: laser
+            damage: 0
+            width: 10
+            height: 8
+            sprite: circle-bullet
+            fragBullets: 1
+            fragAngle: 270
+            fragCone: 0
+            fragBullet: {
+              type: LaserBulletType
+              damage: 650
+              width: 9
+              length: 110
+              lifetime: 30
+              fragBullets: 1
+              fragCone: 0
+              fragAngle: 30
+              fragBullet: {
+                type: BasicBulletType
+                damage: 0
+                sprite: circle-bullet
+                width: 10
+                height: 8
+                fragBullets: 1
+                fragCone: 0
+                fragAngle: 270
+                despawnSound: laser
+                hitSound: laser
+                speed: 6
+                lifetime: 15
+                fragBullet: {
+                  type: LaserBulletType
+                  damage: 650
+                  width: 11
+                  length: 110
+                  lifetime: 28
+                  fragBullets: 1
+                  fragCone: 0
+                  fragAngle: 30
+                  fragBullet: {
+                    type: BasicBulletType
+                    damage: 0
+                    width: 10
+                    height: 8
+                    sprite: circle-bullet
+                    despawnSound: laser
+                    hitSound: laser
+                    speed: 6
+                    lifetime: 15
+                    fragBullets: 1
+                    fragAngle: 270
+                    fragCone: 0
+                    fragBullet: {
+                      type: LaserBulletType
+                      damage: 650
+                      width: 13
+                      length: 110
+                      lifetime: 26
+                      fragBullets: 1
+                      fragCone: 0
+                      fragAngle: 30
+                      fragBullet: {
+                        type: BasicBulletType
+                        damage: 0
+                        width: 10
+                        height: 8
+                        sprite: circle-bullet
+                        despawnSound: laser
+                        hitSound: laser
+                        speed: 6
+                        lifetime: 15
+                        fragBullets: 1
+                        fragAngle: 270
+                        fragCone: 0
+                        fragBullet: {
+                          type:  LaserBulletType
+                          damage: 650
+                          width: 15
+                          length: 110
+                          lifetime: 24
+                          fragAngle: 30
+                          fragCone: 0
+                          fragBullets: 1
+                          fragBullet: {
+                            type: BasicBulletType
+                            damage: 0
+                            width: 10
+                            height: 8
+                            sprite: circle-bullet
+                            despawnSound: laser
+                            hitSound: laser
+                            speed: 6
+                            lifetime: 15
+                            fragBullets: 1
+                            fragAngle: 270
+                            fragCone: 0
+                            fragBullet: {
+                              type:  LaserBulletType
+                              damage: 650
+                              width: 17
+                              length: 110
+                              lifetime: 22
+                              fragAngle: 30
+                              fragCone: 0
+                              fragBullets: 1
+                              fragBullet: {
+                                type: BasicBulletType
+                                damage: 0
+                                width: 10
+                                height: 8
+                                sprite: circle-bullet
+                                despawnSound: laser
+                                hitSound: laser
+                                speed: 6
+                                lifetime: 15
+                                fragBullets: 1
+                                fragAngle: 270
+                                fragCone: 0
+                                fragBullet: {
+                                  type:  LaserBulletType
+                                  damage: 650
+                                  width: 19
+                                  length: 110
+                                  lifetime: 20
+                                  fragAngle: 30
+                                  fragCone: 0
+                                  fragBullets: 1
+                                  fragBullet: {
+                                    type: BasicBulletType
+                                    damage: 0
+                                    width: 10
+                                    height: 8
+                                    sprite: circle-bullet
+                                    despawnSound: laser
+                                    hitSound: laser
+                                    speed: 6
+                                    lifetime: 15
+                                    fragBullets: 1
+                                    fragAngle: 270
+                                    fragCone: 0
+                                    fragBullet: {
+                                      type:  LaserBulletType
+                                      damage: 650
+                                      width: 21
+                                      length: 110
+                                      lifetime: 18
+                                      fragAngle: 30
+                                      fragCone: 0
+                                      fragBullets: 1
+                                      fragBullet: {
+                                        type: BasicBulletType
+                                        damage: 0
+                                        width: 10
+                                        height: 8
+                                        sprite: circle-bullet
+                                        despawnSound: laser
+                                        hitSound: laser
+                                        speed: 6
+                                        lifetime: 15
+                                        fragBullets: 1
+                                        fragAngle: 270
+                                        fragCone: 0
+                                        fragBullet: {
+                                          type:  LaserBulletType
+                                          damage: 650
+                                          width: 23
+                                          length: 110
+                                          lifetime: 16
+                                          fragAngle: 30
+                                          fragCone: 0
+                                          fragBullets: 1
+                                          fragBullet: {
+                                            type: BasicBulletType
+                                            damage: 0
+                                            width: 10
+                                            height: 8
+                                            sprite: circle-bullet
+                                            despawnSound: laser
+                                            hitSound: laser
+                                            speed: 6
+                                            lifetime: 15
+                                            fragBullets: 1
+                                            fragAngle: 270
+                                            fragCone: 0
+                                            fragBullet: {
+                                              type:  LaserBulletType
+                                              damage: 650
+                                              width: 24
+                                              length: 110
+                                              lifetime: 14
+                                              fragAngle: 30
+                                              fragCone: 0
+                                              fragBullets: 1
+                                              fragBullet: {
+                                                type: BasicBulletType
+                                                damage: 0
+                                                width: 10
+                                                height: 8
+                                                sprite: circle-bullet
+                                                despawnSound: laser
+                                                hitSound: laser
+                                                speed: 6
+                                                lifetime: 15
+                                                fragBullets: 1
+                                                fragAngle: 270
+                                                fragCone: 0
+                                                fragBullet: {
+                                                  type:  LaserBulletType
+                                                  damage: 650
+                                                  width: 26
+                                                  length: 110
+                                                  lifetime: 12
+                                                  fragAngle: 30
+                                                  fragCone: 0
+                                                  fragBullets: 1
+                                                  fragBullet: {
+                                                    type: BasicBulletType
+                                                    damage: 0
+                                                    width: 10
+                                                    height: 8
+                                                    sprite: circle-bullet
+                                                    despawnSound: laser
+                                                    hitSound: laser
+                                                    speed: 6
+                                                    lifetime: 15
+                                                    fragBullets: 1
+                                                    fragAngle: 270
+                                                    fragCone: 0
+                                                    fragBullet: {
+                                                      type:  LaserBulletType
+                                                      damage: 650
+                                                      width: 28
+                                                      length: 110
+                                                      lifetime: 10
+                                                      fragAngle: 30
+                                                      fragCone: 180
+                                                      fragBullets: 2
+                                                      fragBullet: {
+                                                        type: BasicBulletType
+                                                        damage: 0
+                                                        width: 10
+                                                        height: 8
+                                                        sprite: circle-bullet
+                                                        despawnSound: laser
+                                                        hitSound: laser
+                                                        speed: 1
+                                                        lifetime: 80
+                                                        fragBullets: 12
+                                                        fragAngle: 270
+                                                        fragCone: 180
+                                                        fragBullet: {
+                                                          type:  LaserBulletType
+                                                          damage: 650
+                                                          width: 30
+                                                          length: 200
+                                                          lifetime: 35
+                                                        } 
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }   
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }                                     
+                        }
+                      }
+                    }
+                  }                
+                }                            
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
