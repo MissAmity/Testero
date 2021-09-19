@@ -120,19 +120,19 @@ weapons: [
                 sprite: circle-bullet
                 width: 10
                 height: 8
-                fragBullets: 1
+                fragBullets: 2
                 fragCone: 0
                 fragAngle: 90
                 despawnSound: laser
                 hitSound: laser
                 speed: 6
-                lifetime: 5
+                lifetime: 15
                 fragBullet: {
                   type: LaserBulletType
                   damage: 650
                   width: 9
                   length: 110
-                  lifetime: 30
+                  lifetime: 28
                   fragBullets: 1
                   fragCone: 0
                   fragAngle: 30
@@ -145,8 +145,8 @@ weapons: [
                     despawnSound: laser
                     hitSound: laser
                     speed: 6
-                    lifetime: 5
-                    fragBullets: 1
+                    lifetime: 15
+                    fragBullets: 3
                     fragAngle: 90
                     fragCone: 0
                     fragBullet: {
@@ -154,7 +154,7 @@ weapons: [
                       damage: 650
                       width: 9
                       length: 110
-                      lifetime: 30
+                      lifetime: 26
                       fragBullets: 1
                       fragCone: 0
                       fragAngle: 30
@@ -167,8 +167,8 @@ weapons: [
                         despawnSound: laser
                         hitSound: laser
                         speed: 6
-                        lifetime: 5
-                        fragBullets: 1
+                        lifetime: 15
+                        fragBullets: 4
                         fragAngle: 90
                         fragCone: 0
                         fragBullet: {
@@ -176,7 +176,7 @@ weapons: [
                           damage: 650
                           width: 9
                           length: 110
-                          lifetime: 30
+                          lifetime: 24
                           fragAngle: 30
                           fragCone: 0
                           fragBullets: 1
@@ -189,8 +189,8 @@ weapons: [
                             despawnSound: laser
                             hitSound: laser
                             speed: 6
-                            lifetime: 5
-                            fragBullets: 1
+                            lifetime: 15
+                            fragBullets: 5
                             fragAngle: 90
                             fragCone: 0
                             fragBullet: {
@@ -198,7 +198,7 @@ weapons: [
                               damage: 650
                               width: 9
                               length: 110
-                              lifetime: 30
+                              lifetime: 22
                               fragAngle: 30
                               fragCone: 0
                               fragBullets: 1
@@ -211,8 +211,8 @@ weapons: [
                                 despawnSound: laser
                                 hitSound: laser
                                 speed: 6
-                                lifetime: 5
-                                fragBullets: 1
+                                lifetime: 15
+                                fragBullets: 6
                                 fragAngle: 90
                                 fragCone: 0
                                 fragBullet: {
@@ -220,7 +220,7 @@ weapons: [
                                   damage: 650
                                   width: 9
                                   length: 110
-                                  lifetime: 30
+                                  lifetime: 20
                                   fragAngle: 30
                                   fragCone: 0
                                   fragBullets: 1
@@ -233,8 +233,8 @@ weapons: [
                                     despawnSound: laser
                                     hitSound: laser
                                     speed: 6
-                                    lifetime: 5
-                                    fragBullets: 1
+                                    lifetime: 15
+                                    fragBullets: 7
                                     fragAngle: 90
                                     fragCone: 0
                                     fragBullet: {
@@ -242,7 +242,7 @@ weapons: [
                                       damage: 650
                                       width: 9
                                       length: 110
-                                      lifetime: 30
+                                      lifetime: 18
                                       fragAngle: 30
                                       fragCone: 0
                                       fragBullets: 1
@@ -255,8 +255,8 @@ weapons: [
                                         despawnSound: laser
                                         hitSound: laser
                                         speed: 6
-                                        lifetime: 5
-                                        fragBullets: 1
+                                        lifetime: 15
+                                        fragBullets: 8
                                         fragAngle: 90
                                         fragCone: 0
                                         fragBullet: {
@@ -264,7 +264,7 @@ weapons: [
                                           damage: 650
                                           width: 9
                                           length: 110
-                                          lifetime: 30
+                                          lifetime: 16
                                           fragAngle: 30
                                           fragCone: 0
                                           fragBullets: 1
@@ -277,8 +277,8 @@ weapons: [
                                             despawnSound: laser
                                             hitSound: laser
                                             speed: 6
-                                            lifetime: 5
-                                            fragBullets: 1
+                                            lifetime: 15
+                                            fragBullets: 9
                                             fragAngle: 90
                                             fragCone: 0
                                             fragBullet: {
@@ -286,7 +286,7 @@ weapons: [
                                               damage: 650
                                               width: 9
                                               length: 110
-                                              lifetime: 30
+                                              lifetime: 14
                                               fragAngle: 30
                                               fragCone: 0
                                               fragBullets: 1
@@ -299,8 +299,8 @@ weapons: [
                                                 despawnSound: laser
                                                 hitSound: laser
                                                 speed: 6
-                                                lifetime: 5
-                                                fragBullets: 1
+                                                lifetime: 15
+                                                fragBullets: 10
                                                 fragAngle: 90
                                                 fragCone: 0
                                                 fragBullet: {
@@ -308,7 +308,7 @@ weapons: [
                                                   damage: 650
                                                   width: 9
                                                   length: 110
-                                                  lifetime: 30
+                                                  lifetime: 12
                                                   fragAngle: 30
                                                   fragCone: 0
                                                   fragBullets: 1
@@ -321,8 +321,8 @@ weapons: [
                                                     despawnSound: laser
                                                     hitSound: laser
                                                     speed: 6
-                                                    lifetime: 5
-                                                    fragBullets: 1
+                                                    lifetime: 15
+                                                    fragBullets: 11
                                                     fragAngle: 90
                                                     fragCone: 0
                                                     fragBullet: {
@@ -330,7 +330,7 @@ weapons: [
                                                       damage: 650
                                                       width: 9
                                                       length: 110
-                                                      lifetime: 30
+                                                      lifetime: 10
                                                       fragAngle: 30
                                                       fragCone: 0
                                                       fragBullets: 1
@@ -342,17 +342,17 @@ weapons: [
                                                         sprite: circle-bullet
                                                         despawnSound: laser
                                                         hitSound: laser
-                                                        speed: 6
-                                                        lifetime: 5
-                                                        fragBullets: 1
+                                                        speed: 1
+                                                        lifetime: 80
+                                                        fragBullets: 12
                                                         fragAngle: 90
                                                         fragCone: 0
                                                         fragBullet: {
                                                           type:  LaserBulletType
                                                           damage: 650
                                                           width: 9
-                                                          length: 110
-                                                          lifetime: 30
+                                                          length: 200
+                                                          lifetime: 35
                                                         } 
                                                       }
                                                     }
