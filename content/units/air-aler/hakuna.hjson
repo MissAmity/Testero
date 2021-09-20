@@ -5,3 +5,5 @@ armor: 5
 hitSize: 2
 speed: 30
 lowAltitude: false
+rotateSpeed: 3
+commandLimit: 8
