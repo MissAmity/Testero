@@ -1,0 +1,7 @@
+type: flying
+health: 200
+flying: true
+armor: 5
+hitSize: 2
+speed: 30
+lowAltitude: false
