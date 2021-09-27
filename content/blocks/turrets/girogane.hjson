@@ -13,7 +13,7 @@ ammoTypes: {
     height: 0.1
     shrinkY: 0
     smokeEffect: none
-    trailInterval: 0.8
+    trailInterval: 0.4
     trailEffect: {
       type: ParticleEffect
       particles: 3
