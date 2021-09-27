@@ -3,7 +3,7 @@ size: 5
 health: 12800
 spread: 10
 alternate: true
-inaccuracy: 4
+inaccuracy: 30
 ammoTypes: {
   coal: {
     type: BasicBulletType
@@ -13,14 +13,14 @@ ammoTypes: {
     height: 0.1
     shrinkY: 0
     smokeEffect: none
-    trailInterval: 1.5
+    trailInterval: 0.8
     trailEffect: {
       type: ParticleEffect
-      particles: 5
+      particles: 3
       cone: 180
       length: 17
-      sizeFrom: 4
-      sizeTo: 4
+      sizeFrom: 3
+      sizeTo: 3
     }
   }
 }
