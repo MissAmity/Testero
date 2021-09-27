@@ -15,7 +15,7 @@ ammoTypes: {
     smokeEffect: none
     trailEffect: {
       type: ParticleEffect
-      particles: 9
+      particles: 30
       cone: 360
       length: 10
       sizeFrom: 100
