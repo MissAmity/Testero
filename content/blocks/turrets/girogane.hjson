@@ -12,7 +12,6 @@ ammoTypes: {
     lifetime: 500
     height: 0.1
     shrinkY: 0
-    shootEffect: none
     smokeEffect: none
     trailEffect: {
       type: ParticleEffect
