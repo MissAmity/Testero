@@ -1,7 +1,8 @@
 type: ItemTurret
 size: 5
 health: 12800
-spread: 10
+shots: 2
+spread: 18
 alternate: true
 inaccuracy: 30
 ammoTypes: {
@@ -14,13 +15,15 @@ ammoTypes: {
     shrinkY: 0
     smokeEffect: none
     trailInterval: 0.4
+    weaveScale: 5
+    weaveMag: 2
     trailEffect: {
       type: ParticleEffect
       particles: 3
       cone: 180
       length: 17
-      sizeFrom: 1.5
-      sizeTo: 1.5
+      sizeFrom: 1.2
+      sizeTo: 1.2
     }
   }
 }
