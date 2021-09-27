@@ -1,10 +1,28 @@
 type: ItemTurret
 size: 5
 health: 12800
+spread: 10
+alternate: true
 ammoTypes: {
   coal: {
     type: BasicBulletType
     damage: 400
+    speed: 4
+    lifetime: 200
+    width: 0.1
+    height: 0.1
+    shrinkY: 0
+    shootX: -9
+    shootY: 21
+    inaccuracy: 4
+    trailEffect: {
+      type: ParticleEffect
+      particles: 6
+      cone: 360
+      randLength: true
+      sizeFrom: 3
+      sizeTo: 3
+    }
   }
 }
 category: turret
