@@ -12,16 +12,15 @@ ammoTypes: {
     lifetime: 500
     height: 0.1
     shrinkY: 0
-    despawnEffect: none
     shootEffect: none
     smokeEffect: none
     trailEffect: {
       type: ParticleEffect
       particles: 9
       cone: 360
-      randLength: true
-      sizeFrom: 15
-      sizeTo: 15
+      length: 10
+      sizeFrom: 100
+      sizeTo: 100
     }
   }
 }
