@@ -1,8 +1,6 @@
 type: ItemTurret
 size: 5
 health: 12800
-spread: 10
-alternate: true
 ammoTypes: {
   coal: {
     type: BasicBulletType
@@ -14,10 +12,12 @@ ammoTypes: {
     shrinkY: 0
     shootX: -9
     shootY: 21
+    mirror: true
+    alternate: true
     inaccuracy: 4
     trailEffect: {
       type: ParticleEffect
-      particles: 6
+      particles: 9
       cone: 360
       randLength: true
       sizeFrom: 3
