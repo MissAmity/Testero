@@ -1,9 +1,7 @@
 type: ItemTurret
 size: 5
 health: 12800
-shootX: -9
-shootY: 21
-mirror: true
+spread: 10
 alternate: true
 inaccuracy: 4
 ammoTypes: {
@@ -14,13 +12,16 @@ ammoTypes: {
     lifetime: 500
     height: 0.1
     shrinkY: 0
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
     trailEffect: {
       type: ParticleEffect
       particles: 9
       cone: 360
       randLength: true
-      sizeFrom: 3
-      sizeTo: 3
+      sizeFrom: 15
+      sizeTo: 15
     }
   }
 }
