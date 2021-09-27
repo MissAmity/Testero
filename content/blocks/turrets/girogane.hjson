@@ -5,3 +5,6 @@ ammoTypes: {
   coal: {
     type: BasicBulletType
     damage: 400
+  }
+}
+category: turret
