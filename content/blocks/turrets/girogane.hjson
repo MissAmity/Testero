@@ -64,9 +64,9 @@ ammoTypes: {
           colorFrom: ffac07
           colorTo: ffffff0
           length: 30
-          cone: -30
+          cone: -30        
         }
-      }
+      ]
     }
   }
 }
