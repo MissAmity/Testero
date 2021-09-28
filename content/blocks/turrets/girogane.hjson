@@ -68,6 +68,68 @@ ammoTypes: {
         }
       ]
     }
+  pyratite: {
+    type: BasicBulletType
+    damage: 380
+    width: 0.1
+    height: 0.1
+    lifetime: 120
+    speed: 3
+    shrinkY: 0
+    shootEffect: {
+      type: ParticleEffect
+      particles: 6
+      line: true
+      strokeFrom: 1.4
+      strokeTo: 0
+      colorFrom: ff9307
+      colorTo: ffffff0
+      length: 30
+      cone: 45
+    }
+  despawnEffect: none
+    trailInterval: 0.4
+    weaveScale: 3
+    weaveMag: 1.6
+    homingPower: 3
+    homingRange: 75
+    status: burning
+    trailEffect: {
+      type: ParticleEffect
+      particles: 3
+      cone: 180
+      length: 17
+      colorFrom: ff9307
+      colorTo: ffffff0
+      sizeFrom: 2.2
+      sizeTo: 0
+    } 
+  hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 8
+          cone: 360
+          colorFrom: ff9307
+          colorTo: ffffff0
+          sizeFrom: 2.2
+          sizeTo: 0
+          length: 21
+        }
+        {
+          type: ParticleEffect
+          particles: 8
+          line: true
+          strokeFrom: 1.7
+          strokeTo: 0
+          colorFrom: ff9307
+          colorTo: ffffff0
+          length: 30
+          cone: -30        
+        }
+      ]
+    }
   }
 }
 category: turret
