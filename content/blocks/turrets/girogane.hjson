@@ -2,6 +2,10 @@ type: ItemTurret
 size: 5
 health: 9700
 shots: 2
+category: turret
+requirements: [
+  silicon/1500
+]
 spread: 18
 alternate: true
 reloadTime: 8
@@ -132,8 +136,4 @@ ammoTypes: {
       ]
     }
   }
-category: turret
-requirements: [
-  silicon/1500
-]
 }
