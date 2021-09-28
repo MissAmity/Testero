@@ -1,0 +1,7 @@
+type: LaserTurret
+size: 5
+health: 11000
+category: turret
+requirements: [
+  silicon/3000
+]
