@@ -10,13 +10,15 @@ ammoTypes: {
     type: BasicBulletType
     damage: 400
     width: 0.1
-    lifetime: 500
+    lifetime: 120
+    speed: 3
     height: 0.1
     shrinkY: 0
-    smokeEffect: none
+    shootEffect: none
     trailInterval: 0.4
     weaveScale: 5
-    weaveMag: 2
+    weaveMag: 4
+    status: burning
     trailEffect: {
       type: ParticleEffect
       particles: 3
@@ -24,8 +26,18 @@ ammoTypes: {
       length: 17
       colorFrom: ffac07
       colorTo: ffffff0
-      sizeFrom: 1.2
+      sizeFrom: 1.4
       sizeTo: 0
+    }
+    hitEffect: {
+      type: ParticleEffect
+      particles: 8
+      cone: 360
+      colorFrom: ffac07
+      colorTo: ffffff0
+      sizeFrom: 1.4
+      sizeTo: 0
+      length: 21
     }
   }
 }
