@@ -68,6 +68,7 @@ ammoTypes: {
         }
       ]
     }
+  }
   pyratite: {
     type: BasicBulletType
     damage: 380
