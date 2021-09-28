@@ -87,7 +87,7 @@ ammoTypes: {
       length: 30
       cone: 45
     }
-  despawnEffect: none
+    despawnEffect: none
     trailInterval: 0.4
     weaveScale: 3
     weaveMag: 1.6
@@ -131,9 +131,7 @@ ammoTypes: {
       ]
     }
   }
-}
 category: turret
 requirements: [
   silicon/1500
 ]
-}
