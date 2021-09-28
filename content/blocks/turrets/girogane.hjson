@@ -98,6 +98,8 @@ ammoTypes: {
     weaveMag: 1.6
     homingPower: 1.2
     homingRange: 85
+    splashDamage: 80
+    splashDamageRadius: 45
     status: burning
     trailEffect: {
       type: ParticleEffect
