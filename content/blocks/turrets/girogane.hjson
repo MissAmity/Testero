@@ -1,11 +1,11 @@
 type: ItemTurret
 size: 5
-health: 7800
+health: 9700
 shots: 2
 spread: 18
 alternate: true
 reloadTime: 8
-range: 45
+range: 360
 inaccuracy: 10
 ammoTypes: {
   coal: {
