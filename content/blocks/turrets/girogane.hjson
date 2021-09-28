@@ -43,14 +43,30 @@ ammoTypes: {
       sizeTo: 0
     }
     hitEffect: {
-      type: ParticleEffect
-      particles: 8
-      cone: 360
-      colorFrom: ffac07
-      colorTo: ffffff0
-      sizeFrom: 2.2
-      sizeTo: 0
-      length: 21
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 8
+          cone: 360
+          colorFrom: ffac07
+          colorTo: ffffff0
+          sizeFrom: 2.2
+          sizeTo: 0
+          length: 21
+        }
+        {
+          type: ParticleEffect
+          particles: 8
+          line: true
+          strokeFrom: 1.7
+          strokeTo: 0
+          colorFrom: ffac07
+          colorTo: ffffff0
+          length: 30
+          cone: -30
+        }
+      }
     }
   }
 }
