@@ -16,7 +16,18 @@ ammoTypes: {
     speed: 3
     height: 0.1
     shrinkY: 0
-    shootEffect: none
+    shootEffect: {
+      type: ParticleEffect
+      particles: 6
+      line: true
+      strokeFrom: 1.4
+      strokeTo: 0
+      colorFrom: ffac07
+      colorTo: ffffff0
+      length: 30
+      cone: 45
+    }
+    despawnEffect: none
     trailInterval: 0.4
     weaveScale: 5
     weaveMag: 2.8
