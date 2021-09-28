@@ -4,7 +4,8 @@ health: 12800
 shots: 2
 spread: 18
 alternate: true
-inaccuracy: 30
+range: 999
+inaccuracy: 15
 ammoTypes: {
   coal: {
     type: BasicBulletType
@@ -26,7 +27,7 @@ ammoTypes: {
       length: 17
       colorFrom: ffac07
       colorTo: ffffff0
-      sizeFrom: 1.4
+      sizeFrom: 2.2
       sizeTo: 0
     }
     hitEffect: {
@@ -35,7 +36,7 @@ ammoTypes: {
       cone: 360
       colorFrom: ffac07
       colorTo: ffffff0
-      sizeFrom: 1.4
+      sizeFrom: 2.2
       sizeTo: 0
       length: 21
     }
