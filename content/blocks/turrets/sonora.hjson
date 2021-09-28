@@ -5,3 +5,6 @@ category: turret
 requirements: [
   silicon/3000
 ]
+shootType: {
+  type: LaserBoltBulletType
+    damage: 2300
