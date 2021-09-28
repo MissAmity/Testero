@@ -4,8 +4,9 @@ health: 7800
 shots: 2
 spread: 18
 alternate: true
-range: 999
-inaccuracy: 15
+reloadTime: 8
+range: 45
+inaccuracy: 10
 ammoTypes: {
   coal: {
     type: BasicBulletType
@@ -18,7 +19,7 @@ ammoTypes: {
     shootEffect: none
     trailInterval: 0.4
     weaveScale: 5
-    weaveMag: 4
+    weaveMag: 2.8
     status: burning
     trailEffect: {
       type: ParticleEffect
