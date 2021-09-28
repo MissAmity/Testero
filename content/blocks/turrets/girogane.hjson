@@ -96,8 +96,8 @@ ammoTypes: {
     trailInterval: 0.4
     weaveScale: 3
     weaveMag: 1.6
-    homingPower: 3
-    homingRange: 75
+    homingPower: 1.2
+    homingRange: 85
     status: burning
     trailEffect: {
       type: ParticleEffect
