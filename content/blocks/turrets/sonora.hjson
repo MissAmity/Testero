@@ -7,4 +7,5 @@ requirements: [
 ]
 shootType: {
   type: LaserBoltBulletType
-    damage: 2300
+  damage: 2300
+}
