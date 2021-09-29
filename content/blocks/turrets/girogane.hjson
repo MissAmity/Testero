@@ -98,11 +98,11 @@ ammoTypes: {
     }
     despawnEffect: {
       type: WaveEffect
-      lifetime: 50
-      sizeFrom: 14
+      lifetime: 25
+      sizeFrom: 20
       sizeTo: 7
       line: true
-      strokeFrom: 5
+      strokeFrom: 3
       strokeTo: 0
       colorFrom: ff9307
       colorTo: ffffff0
@@ -151,11 +151,11 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 50
-          sizeFrom: 14
+          lifetime: 25
+          sizeFrom: 20
           sizeTo: 7
           line: true
-          strokeFrom: 5
+          strokeFrom: 3
           strokeTo: 0
           colorFrom: ff9307
           colorTo: ffffff0
