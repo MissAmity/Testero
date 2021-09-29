@@ -96,7 +96,17 @@ ammoTypes: {
       length: 30
       cone: 45
     }
-    despawnEffect: none
+    despawnEffect: {
+      type: WaveEffect
+      lifetime: 50
+      sizeFrom: 14
+      sizeTo: 7
+      line: true
+      strokeFrom: 5
+      strokeTo: 0
+      colorFrom: ff9307
+      colorTo: ffffff0
+    }
     trailInterval: 0.4
     weaveScale: 3
     weaveMag: 1.6
@@ -137,7 +147,18 @@ ammoTypes: {
           colorFrom: ff9307
           colorTo: ffffff0
           length: 30
-          cone: -30        
+          cone: 180    
+        }
+        {
+          type: WaveEffect
+          lifetime: 50
+          sizeFrom: 14
+          sizeTo: 7
+          line: true
+          strokeFrom: 5
+          strokeTo: 0
+          colorFrom: ff9307
+          colorTo: ffffff0
         }
       ]
     }
