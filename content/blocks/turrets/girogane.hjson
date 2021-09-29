@@ -20,6 +20,7 @@ ammoUseEffect: {
   colorFrom: ffac0750
   colorTo: ffffff0
   length: 30
+  cone: 45
 }
 ammoTypes: {
   coal: {
