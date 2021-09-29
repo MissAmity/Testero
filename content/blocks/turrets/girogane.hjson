@@ -21,7 +21,7 @@ ammoTypes: {
     speed: 3
     height: 0.1
     shrinkY: 0
-    ammoMultiplier: 1.7
+    ammoMultiplier: 3
     shootEffect: {
       type: ParticleEffect
       particles: 6
@@ -83,8 +83,8 @@ ammoTypes: {
     lifetime: 120
     speed: 3
     shrinkY: 0
-    reloadMultiplier: 1.5
-    ammoMultiplier: 1.2
+    reloadMultiplier: 0.8
+    ammoMultiplier: 2
     shootEffect: {
       type: ParticleEffect
       particles: 6
