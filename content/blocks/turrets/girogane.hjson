@@ -32,6 +32,7 @@ ammoTypes: {
       lifetime: 35
       colorFrom: ffac0750
       colorTo: ffc9070
+      offsetY: -5
     }
     shootEffect: {
       type: ParticleEffect
@@ -106,6 +107,7 @@ ammoTypes: {
       lifetime: 35
       colorFrom: ff930750
       colorTo: ffc9070
+      offsetY: -5
     }
     shootEffect: {
       type: ParticleEffect
