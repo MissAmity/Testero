@@ -14,12 +14,12 @@ inaccuracy: 10
 ammoPerShot: 5
 ammoUseEffect: {
   type: ParticleEffect
-  particles: 6
+  particles: 7
   sizeFrom: 3.2
   sizeTo: 0
-  colorFrom: 76767675
-  colorTo: ffffff0
-  length: 60
+  colorFrom: 00000065
+  colorTo: 7676760
+  length: 55
   cone: 180
 }
 ammoTypes: {
