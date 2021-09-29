@@ -14,10 +14,10 @@ inaccuracy: 10
 ammoPerShot: 5
 ammoUseEffect: {
   type: ParticleEffect
-  particles: 6
-  sizeFrom: 14
+  particles: 4
+  sizeFrom: 1.3
   sizeTo: 0
-  colorFrom: 76767650
+  colorFrom: 76767625
   colorTo: 76767600
   length: 30
 }
