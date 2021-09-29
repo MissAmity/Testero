@@ -17,10 +17,9 @@ ammoUseEffect: {
   particles: 6
   sizeFrom: 14
   sizeTo: 0
-  colorFrom: ffac0750
-  colorTo: ffffff0
+  colorFrom: 76767650
+  colorTo: 76767600
   length: 30
-  cone: 45
 }
 ammoTypes: {
   coal: {
