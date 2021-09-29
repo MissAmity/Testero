@@ -15,12 +15,11 @@ ammoPerShot: 5
 ammoUseEffect: {
   type: ParticleEffect
   particles: 6
-  sizeFrom: 1.6
+  sizeFrom: 2.4
   sizeTo: 0
-  colorFrom: 767676
-  colorTo: 7676760
-  length: 30
-  cone: 90
+  colorFrom: 76767650
+  colorTo: ffffff0
+  length: 60
 }
 ammoTypes: {
   coal: {
