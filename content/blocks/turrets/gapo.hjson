@@ -1,7 +1,9 @@
 type: LaserTurret
 size: 6
 health: 15800
+category: turret
 requirements: [
   silicon/3000
 ]
-shotsType
+shootType: {
+  type: LaserBulletType
