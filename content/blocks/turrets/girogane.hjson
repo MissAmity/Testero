@@ -12,18 +12,6 @@ reloadTime: 8
 range: 360
 inaccuracy: 10
 ammoPerShot: 5
-ammoUseEffect: {
-  type: ParticleEffect
-  particles: 7
-  sizeFrom: 3.2
-  sizeTo: 0
-  colorFrom: 42424265
-  colorTo: 76767615
-  length: 55
-  cone: 180
-  offsetX: -9
-  offsetY: 20.25
-}
 ammoTypes: {
   coal: {
     type: BasicBulletType
