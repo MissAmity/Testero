@@ -29,8 +29,8 @@ ammoTypes: {
       particles: 7
       sizeFrom: 3.2
       sizeTo: 0
-      colorFrom: 42424285
-      colorTo: 76767615
+      colorFrom: 424242
+      colorTo: 76767645
       length: 55
       cone: 360
     }
@@ -102,8 +102,8 @@ ammoTypes: {
       particles: 7
       sizeFrom: 3.2
       sizeTo: 0
-      colorFrom: 42424285
-      colorTo: 76767615
+      colorFrom: 424242
+      colorTo: 76767645
       length: 55
       cone: 360
     }
