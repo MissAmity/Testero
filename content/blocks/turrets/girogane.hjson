@@ -11,7 +11,9 @@ alternate: true
 reloadTime: 8
 range: 360
 inaccuracy: 10
-ammoPerShot: 5
+ammoPerShot: 4
+itemCapacity: 30
+maxAmmo: 60
 ammoTypes: {
   coal: {
     type: BasicBulletType
@@ -22,6 +24,16 @@ ammoTypes: {
     height: 0.1
     shrinkY: 0
     ammoMultiplier: 3
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 7
+      sizeFrom: 3.2
+      sizeTo: 0
+      colorFrom: 42424285
+      colorTo: 76767615
+      length: 55
+      cone: 360
+    }
     shootEffect: {
       type: ParticleEffect
       particles: 6
@@ -85,6 +97,16 @@ ammoTypes: {
     shrinkY: 0
     reloadMultiplier: 0.8
     ammoMultiplier: 2
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 7
+      sizeFrom: 3.2
+      sizeTo: 0
+      colorFrom: 42424285
+      colorTo: 76767615
+      length: 55
+      cone: 360
+    }
     shootEffect: {
       type: ParticleEffect
       particles: 6
