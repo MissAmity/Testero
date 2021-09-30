@@ -7,3 +7,4 @@ requirements: [
 ]
 shootType: {
   type: LaserBulletType
+}
