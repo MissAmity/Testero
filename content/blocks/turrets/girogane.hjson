@@ -18,12 +18,15 @@ ammoTypes: {
   coal: {
     type: BasicBulletType
     damage: 400
-    width: 0.1
+    frontColor: ffac07
+    backColor: ffac07
+    width: 2.7
     lifetime: 120
     speed: 3
-    height: 0.1
+    height: 2.5
     shrinkY: 0
     ammoMultiplier: 3
+    sprite: testero-giroball
     smokeEffect: {
       type: ParticleEffect
       particles: 7
@@ -47,19 +50,39 @@ ammoTypes: {
     }
     despawnEffect: none
     trailInterval: 0.4
+    trailWidth: 2.5
+    trailLength: 4
+    trailColor: ffac07
     weaveScale: 5
     weaveMag: 2.8
     status: burning
     trailEffect: {
-      type: ParticleEffect
-      particles: 3
-      cone: 180
-      length: 17
-      colorFrom: ffac07
-      colorTo: ffffff0
-      sizeFrom: 2.2
-      sizeTo: 0
-    }
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          cone: 180
+          length: 17
+          colorFrom: ffac07
+          colorTo: ffffff0
+          sizeFrom: 2.2
+          sizeTo: 0
+        }
+        {
+          type: ParticleEffect
+          particles: 4
+          cone: 270
+          length: 19
+          colorFrom: ffac07
+          colorTo: ffffff0
+          strokeFrom: 2.4
+          strokeTo: 0
+          line: true
+          lifetime: 15
+        }
+      ]
+    }  
     hitEffect: {
       type: MultiEffect
       effects: [
@@ -90,8 +113,11 @@ ammoTypes: {
   pyratite: {
     type: BasicBulletType
     damage: 380
-    width: 0.1
-    height: 0.1
+    width: 2.7
+    height: 2.5
+    sprite: testero-giroball
+    frontColor: ff9307
+    backColor: ff9307
     lifetime: 120
     speed: 3
     shrinkY: 0
@@ -130,6 +156,9 @@ ammoTypes: {
       colorTo: ffffff0
     }
     trailInterval: 0.4
+    trailColor: ff9307
+    trailWidth: 2.5
+    trailLength: 4
     weaveScale: 3
     weaveMag: 1.6
     homingPower: 0.8
@@ -139,15 +168,32 @@ ammoTypes: {
     splashDamageRadius: 45
     status: burning
     trailEffect: {
-      type: ParticleEffect
-      particles: 3
-      cone: 180
-      length: 17
-      colorFrom: ff9307
-      colorTo: ffffff0
-      sizeFrom: 2.2
-      sizeTo: 0
-    } 
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          cone: 180
+          length: 17
+          colorFrom: ff9307
+          colorTo: ffffff0
+          sizeFrom: 2.2
+          sizeTo: 0
+        }
+        {
+          type: ParticleEffect
+          particles: 4
+          cone: 270
+          length: 19
+          colorFrom: ff9307
+          colorTo: ffffff0
+          strokeFrom: 2.4
+          strokeTo: 0
+          line: true
+          lifetime: 15
+        }
+      ]
+    }  
     hitEffect: {
       type: MultiEffect
       effects: [
