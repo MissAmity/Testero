@@ -50,7 +50,7 @@ ammoTypes: {
     }
     despawnEffect: none
     trailInterval: 0.4
-    trailWidth: 2.5
+    trailWidth: 2.7
     trailLength: 4
     trailColor: ffac07
     weaveScale: 5
@@ -66,17 +66,17 @@ ammoTypes: {
           length: 17
           colorFrom: ffac07
           colorTo: ffffff0
-          sizeFrom: 2.2
+          sizeFrom: 1.6
           sizeTo: 0
         }
         {
           type: ParticleEffect
           particles: 4
-          cone: 270
+          cone: 45
           length: 19
           colorFrom: ffac07
           colorTo: ffffff0
-          strokeFrom: 2.4
+          strokeFrom: 1.2
           strokeTo: 0
           line: true
           lifetime: 15
@@ -157,7 +157,7 @@ ammoTypes: {
     }
     trailInterval: 0.4
     trailColor: ff9307
-    trailWidth: 2.5
+    trailWidth: 2.7
     trailLength: 4
     weaveScale: 3
     weaveMag: 1.6
@@ -177,17 +177,17 @@ ammoTypes: {
           length: 17
           colorFrom: ff9307
           colorTo: ffffff0
-          sizeFrom: 2.2
+          sizeFrom: 1.6
           sizeTo: 0
         }
         {
           type: ParticleEffect
           particles: 4
-          cone: 270
+          cone: 45
           length: 19
           colorFrom: ff9307
           colorTo: ffffff0
-          strokeFrom: 2.4
+          strokeFrom: 1.2
           strokeTo: 0
           line: true
           lifetime: 15
