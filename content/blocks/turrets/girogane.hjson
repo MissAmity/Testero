@@ -67,19 +67,7 @@ ammoTypes: {
           colorFrom: ffac07
           colorTo: ffffff0
           sizeFrom: 1.6
-          sizeTo: 0
-        }
-        {
-          type: ParticleEffect
-          particles: 4
-          cone: 45
-          length: 19
-          colorFrom: ffac07
-          colorTo: ffffff0
-          strokeFrom: 1.2
-          strokeTo: 0
-          line: true
-          lifetime: 15
+          sizeTo: 0     
         }
       ]
     }  
@@ -178,19 +166,7 @@ ammoTypes: {
           colorFrom: ff9307
           colorTo: ffffff0
           sizeFrom: 1.6
-          sizeTo: 0
-        }
-        {
-          type: ParticleEffect
-          particles: 4
-          cone: 45
-          length: 19
-          colorFrom: ff9307
-          colorTo: ffffff0
-          strokeFrom: 1.2
-          strokeTo: 0
-          line: true
-          lifetime: 15
+          sizeTo: 0      
         }
       ]
     }  
