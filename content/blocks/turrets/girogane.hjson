@@ -32,10 +32,10 @@ ammoTypes: {
       particles: 7
       sizeFrom: 3.2
       sizeTo: 0
-      colorFrom: 424242
+      colorFrom: 42424290
       colorTo: 76767645
       length: 55
-      cone: 360
+      cone: 290
     }
     shootEffect: {
       type: ParticleEffect
@@ -47,6 +47,7 @@ ammoTypes: {
       colorTo: ffffff0
       length: 30
       cone: 45
+      lifetime: 10
     }
     despawnEffect: none
     trailInterval: 0.4
@@ -116,10 +117,10 @@ ammoTypes: {
       particles: 7
       sizeFrom: 3.2
       sizeTo: 0
-      colorFrom: 424242
+      colorFrom: 42424290
       colorTo: 76767645
       length: 55
-      cone: 360
+      cone: 290
     }
     shootEffect: {
       type: ParticleEffect
@@ -131,12 +132,13 @@ ammoTypes: {
       colorTo: ffffff0
       length: 30
       cone: 45
+      lifetime: 10
     }
     despawnEffect: {
       type: WaveEffect
       lifetime: 25
       sizeFrom: 20
-      sizeTo: 7
+      sizeTo: 20
       line: true
       strokeFrom: 3
       strokeTo: 0
