@@ -214,8 +214,8 @@ ammoTypes: {
     width: 2.7
     height: 2.5
     sprite: circle-bullet
-    frontColor: ff9307
-    backColor: ff9307
+    frontColor: ff3d11
+    backColor: ff3d11
     lifetime: 120
     speed: 3
     shrinkY: 0
@@ -237,7 +237,7 @@ ammoTypes: {
       line: true
       strokeFrom: 1.4
       strokeTo: 0
-      colorFrom: ff9307
+      colorFrom: ff3d11
       colorTo: ffffff0
       length: 30
       cone: 45
@@ -251,11 +251,12 @@ ammoTypes: {
       line: true
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: ff9307
+      colorFrom: ff3d11
       colorTo: ffffff0
+      sides: 8
     }
     trailInterval: 0.4
-    trailColor: ff9307
+    trailColor: ff3d11
     trailWidth: 2.5
     trailLength: 3.6
     splashDamage: 250
@@ -269,7 +270,7 @@ ammoTypes: {
           particles: 3
           cone: 180
           length: 20
-          colorFrom: ff9307
+          colorFrom: ff3d11
           colorTo: ffffff0
           sizeFrom: 1.6
           sizeTo: 0 
@@ -286,7 +287,7 @@ ammoTypes: {
           type: ParticleEffect
           particles: 8
           cone: 360
-          colorFrom: ff9307
+          colorFrom: ff3d11
           colorTo: ffffff0
           sizeFrom: 2.2
           sizeTo: 0
@@ -298,7 +299,7 @@ ammoTypes: {
           line: true
           strokeFrom: 1.7
           strokeTo: 0
-          colorFrom: ff9307
+          colorFrom: ff3d11
           colorTo: ffffff0
           length: 30
           cone: 180    
@@ -311,8 +312,9 @@ ammoTypes: {
           line: true
           strokeFrom: 1.5
           strokeTo: 0
-          colorFrom: ff9307
+          colorFrom: ff3d11
           colorTo: ffffff0
+          sides: 8
         }
       ]
     }
