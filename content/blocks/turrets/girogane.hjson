@@ -247,8 +247,8 @@ ammoTypes: {
     despawnEffect: {
       type: WaveEffect
       lifetime: 25
-      sizeFrom: 20
-      sizeTo: 20
+      sizeFrom: 100
+      sizeTo: 100
       line: true
       strokeFrom: 3
       strokeTo: 0
@@ -270,7 +270,7 @@ ammoTypes: {
           type: ParticleEffect
           particles: 3
           cone: 180
-          length: 20
+          length: 24
           colorFrom: ff3d11
           colorTo: ffffff0
           sizeFrom: 1.6
@@ -292,7 +292,7 @@ ammoTypes: {
           colorTo: ffffff0
           sizeFrom: 2.2
           sizeTo: 0
-          length: 21
+          length: 65
         }
         {
           type: ParticleEffect
@@ -302,14 +302,14 @@ ammoTypes: {
           strokeTo: 0
           colorFrom: ff3d11
           colorTo: ffffff0
-          length: 30
+          length: 65
           cone: 180    
         }
         {
           type: WaveEffect
           lifetime: 25
-          sizeFrom: 20
-          sizeTo: 20
+          sizeFrom: 100
+          sizeTo: 100
           line: true
           strokeFrom: 1.5
           strokeTo: 0
