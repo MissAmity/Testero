@@ -213,7 +213,8 @@ ammoTypes: {
     damage: 530
     width: 2.7
     height: 2.5
-    sprite: circle-bullet
+    sprite: testero-octagon
+    spin: 5
     frontColor: ff3d11
     backColor: ff3d11
     lifetime: 120
