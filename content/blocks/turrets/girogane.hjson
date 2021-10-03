@@ -12,8 +12,7 @@ reloadTime: 8
 range: 360
 inaccuracy: 10
 ammoPerShot: 4
-itemCapacity: 60
-maxAmmo: 60
+maxAmmo: 80
 ammoTypes: {
   coal: {
     type: BasicBulletType
