@@ -51,8 +51,8 @@ ammoTypes: {
     }
     despawnEffect: none
     trailInterval: 0.4
-    trailWidth: 2.7
-    trailLength: 4
+    trailWidth: 2.5
+    trailLength: 3.6
     trailColor: ffac07
     weaveScale: 5
     weaveMag: 2.8
@@ -147,8 +147,8 @@ ammoTypes: {
     }
     trailInterval: 0.4
     trailColor: ff9307
-    trailWidth: 2.7
-    trailLength: 4
+    trailWidth: 2.5
+    trailLength: 3.6
     weaveScale: 3
     weaveMag: 1.6
     homingPower: 0.8
@@ -200,7 +200,7 @@ ammoTypes: {
           type: WaveEffect
           lifetime: 25
           sizeFrom: 20
-          sizeTo: 7
+          sizeTo: 20
           line: true
           strokeFrom: 1.5
           strokeTo: 0
