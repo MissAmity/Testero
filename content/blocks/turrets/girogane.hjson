@@ -24,7 +24,7 @@ ammoTypes: {
     height: 2.5
     shrinkY: 0
     ammoMultiplier: 2
-    sprite: testero-giroball
+    sprite: circle-bullet
     smokeEffect: {
       type: ParticleEffect
       particles: 7
@@ -102,7 +102,7 @@ ammoTypes: {
     damage: 380
     width: 2.7
     height: 2.5
-    sprite: testero-giroball
+    sprite: circle-bullet
     frontColor: ff9307
     backColor: ff9307
     lifetime: 120
@@ -167,6 +167,115 @@ ammoTypes: {
           colorTo: ffffff0
           sizeFrom: 1.6
           sizeTo: 0      
+        }
+      ]
+    }  
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 8
+          cone: 360
+          colorFrom: ff9307
+          colorTo: ffffff0
+          sizeFrom: 2.2
+          sizeTo: 0
+          length: 21
+        }
+        {
+          type: ParticleEffect
+          particles: 8
+          line: true
+          strokeFrom: 1.7
+          strokeTo: 0
+          colorFrom: ff9307
+          colorTo: ffffff0
+          length: 30
+          cone: 180    
+        }
+        {
+          type: WaveEffect
+          lifetime: 25
+          sizeFrom: 20
+          sizeTo: 20
+          line: true
+          strokeFrom: 1.5
+          strokeTo: 0
+          colorFrom: ff9307
+          colorTo: ffffff0
+        }
+      ]
+    }
+  }
+  blast-compound
+    type: BasicBulletType
+    damage: 530
+    width: 2.7
+    height: 2.5
+    sprite: circle-bullet
+    frontColor: ff9307
+    backColor: ff9307
+    lifetime: 120
+    speed: 3
+    shrinkY: 0
+    reloadMultiplier: 0.4
+    ammoMultiplier: 1
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 7
+      sizeFrom: 3.2
+      sizeTo: 0
+      colorFrom: 42424290
+      colorTo: 76767645
+      length: 55
+      cone: 290
+    }
+    shootEffect: {
+      type: ParticleEffect
+      particles: 6
+      line: true
+      strokeFrom: 1.4
+      strokeTo: 0
+      colorFrom: ff9307
+      colorTo: ffffff0
+      length: 30
+      cone: 45
+      lifetime: 10
+    }
+    despawnEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 20
+      sizeTo: 20
+      line: true
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: ff9307
+      colorTo: ffffff0
+    }
+    trailInterval: 0.4
+    trailColor: ff9307
+    trailWidth: 2.5
+    trailLength: 3.6
+    splashDamage: 250
+    splashDamageRadius: 100
+    status: blasted
+    trailEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          cone: 180
+          length: 20
+          colorFrom: ff9307
+          colorTo: ffffff0
+          sizeFrom: 1.6
+          sizeTo: 0 
+          line: true
+          strokeFrom: 1.2
+          strokeTo: 0     
         }
       ]
     }  
