@@ -133,15 +133,14 @@ ammoTypes: {
       lifetime: 10
     }
     despawnEffect: {
-      type: WaveEffect
-      lifetime: 25
-      sizeFrom: 20
-      sizeTo: 20
-      line: true
-      strokeFrom: 3
-      strokeTo: 0
+      type: ParticleEffect
+      particles: 9
+      cone: 360
       colorFrom: ff9307
       colorTo: ffffff0
+      sizeFrom: 2.8
+      sizeTo: 0
+      length: 47
     }
     trailInterval: 0.4
     trailColor: ff9307
@@ -151,7 +150,7 @@ ammoTypes: {
     weaveMag: 1.6
     homingPower: 0.8
     homingRange: 100
-    homingDelay: 1
+    homingDelay: 3
     splashDamage: 80
     splashDamageRadius: 45
     status: burning
@@ -175,13 +174,13 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
-          particles: 8
+          particles: 15
           cone: 360
           colorFrom: ff9307
           colorTo: ffffff0
-          sizeFrom: 2.2
+          sizeFrom: 2.8
           sizeTo: 0
-          length: 21
+          length: 47
         }
         {
           type: ParticleEffect
@@ -191,24 +190,13 @@ ammoTypes: {
           strokeTo: 0
           colorFrom: ff9307
           colorTo: ffffff0
-          length: 30
+          length: 45
           cone: 180    
-        }
-        {
-          type: WaveEffect
-          lifetime: 25
-          sizeFrom: 20
-          sizeTo: 20
-          line: true
-          strokeFrom: 1.5
-          strokeTo: 0
-          colorFrom: ff9307
-          colorTo: ffffff0
         }
       ]
     }
   }
-  blast-compound
+  blast-compound: {
     type: BasicBulletType
     damage: 530
     width: 2.7
@@ -292,7 +280,7 @@ ammoTypes: {
           colorTo: ffffff0
           sizeFrom: 2.2
           sizeTo: 0
-          length: 65
+          length: 97
         }
         {
           type: ParticleEffect
@@ -302,7 +290,7 @@ ammoTypes: {
           strokeTo: 0
           colorFrom: ff3d11
           colorTo: ffffff0
-          length: 65
+          length: 140
           cone: 180    
         }
         {
