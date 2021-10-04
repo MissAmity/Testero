@@ -199,8 +199,8 @@ ammoTypes: {
   blast-compound: {
     type: BasicBulletType
     damage: 530
-    width: 10
-    height: 8
+    width: 20
+    height: 18
     sprite: testero-octagon
     spin: 5
     frontColor: ff6e30
@@ -300,8 +300,8 @@ ammoTypes: {
         {
           type: WaveEffect
           lifetime: 25
-          sizeFrom: 100
-          sizeTo: 100
+          sizeFrom: 0
+          sizeTo: 0
           line: true
           strokeFrom: 100
           strokeTo: 0
