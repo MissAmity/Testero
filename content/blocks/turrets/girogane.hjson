@@ -200,7 +200,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 530
     width: 20
-    height: 18
+    height: 20
     sprite: testero-octagon
     spin: 5
     frontColor: ff6e30
@@ -245,9 +245,6 @@ ammoTypes: {
       sides: 8
     }
     trailInterval: 0.4
-    trailColor: ff6e30
-    trailWidth: 9
-    trailLength: 12
     splashDamage: 250
     splashDamageRadius: 100
     status: blasted
@@ -274,7 +271,7 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
-          particles: 25
+          particles: 100
           line: true
           strokeFrom: 1.5
           strokeTo: 0
@@ -286,7 +283,7 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 35
+          lifetime: 95
           sizeFrom: 100
           sizeTo: 100
           line: true
@@ -299,7 +296,7 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 25
+          lifetime: 40
           sizeFrom: 0
           sizeTo: 100
           line: true
