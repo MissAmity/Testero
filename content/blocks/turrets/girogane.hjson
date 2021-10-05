@@ -287,9 +287,9 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 85
-          sizeFrom: 140
-          sizeTo: 140
+          lifetime: 95
+          sizeFrom: 100
+          sizeTo: 100
           line: true
           strokeFrom: 8
           strokeTo: 0
@@ -304,9 +304,6 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 100
-          line: true
-          strokeFrom: 200
-          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 8
@@ -315,7 +312,7 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 85
+          lifetime: 75
           sizeFrom: 140
           sizeTo: 140
           line: true
@@ -329,7 +326,7 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 85
+          lifetime: 75
           sizeFrom: 140
           sizeTo: 140
           line: true
@@ -346,9 +343,6 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 140
-          line: true
-          strokeFrom: 100
-          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 3
@@ -360,9 +354,6 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 140
-          line: true
-          strokeFrom: 100
-          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 3
