@@ -201,7 +201,7 @@ ammoTypes: {
     damage: 530
     width: 20
     height: 20
-    sprite: testero-mod-octagon
+    sprite: testero-octagon
     spin: 5
     frontColor: ff6e30
     backColor: ff6e30
@@ -253,9 +253,9 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
-          particles: 4
-          cone: 180
-          length: 30
+          particles: 5
+          cone: 30
+          length: 50
           colorFrom: ff6e30
           colorTo: ffffff0
           sizeFrom: 1
@@ -279,7 +279,7 @@ ammoTypes: {
           colorTo: ffffff0
           length: 300
           cone: 360
-          lifetime: 35   
+          lifetime: 50
         }
         {
           type: WaveEffect
