@@ -304,11 +304,15 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 100
+          line: true
+          strokeFrom: 200
+          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 8
           cone: 0
           rotation: 0
+
         }
         {
           type: WaveEffect
@@ -343,6 +347,9 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 140
+          line: true
+          strokeFrom: 140
+          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 3
@@ -354,6 +361,9 @@ ammoTypes: {
           lifetime: 30
           sizeFrom: 0
           sizeTo: 140
+          line: true
+          strokeFrom: 140
+          strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           sides: 3
