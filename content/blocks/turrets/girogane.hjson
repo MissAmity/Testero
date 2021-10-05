@@ -208,7 +208,7 @@ ammoTypes: {
     lifetime: 180
     speed: 3
     shrinkY: 0
-    reloadMultiplier: 0.1
+    reloadMultiplier: 0.07
     ammoMultiplier: 1
     smokeEffect: {
       type: ParticleEffect
@@ -246,7 +246,7 @@ ammoTypes: {
     }
     trailInterval: 0.4
     traileColor: ff6e30
-    trailWidth: 19.8
+    trailWidth: 14
     trailLength: 21
     splashDamage: 250
     splashDamageRadius: 100
@@ -274,15 +274,16 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
-          particles: 180
+          particles: 125
           line: true
-          strokeFrom: 2
+          strokeFrom: 4
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
           length: 300
           cone: 360
           lifetime: 50
+          startDelay: 30
         }
         {
           type: WaveEffect
@@ -314,9 +315,9 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 30
-          sizeFrom: 180
-          sizeTo: 180
+          lifetime: 85
+          sizeFrom: 100
+          sizeTo: 100
           line: true
           strokeFrom: 8
           strokeTo: 0
@@ -328,11 +329,39 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 30
-          sizeFrom: 180
-          sizeTo: 180
+          lifetime: 85
+          sizeFrom: 100
+          sizeTo: 100
           line: true
           strokeFrom: 8
+          strokeTo: 0
+          colorFrom: ff6e30
+          colorTo: ffffff0
+          sides: 3
+          cone: 0
+          rotation: 180
+        }
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 100
+          line: true
+          strokeFrom: 200
+          strokeTo: 0
+          colorFrom: ff6e30
+          colorTo: ffffff0
+          sides: 3
+          cone: 0
+          rotation: 0
+        }
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 100
+          line: true
+          strokeFrom: 200
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
