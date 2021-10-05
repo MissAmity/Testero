@@ -271,15 +271,15 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
-          particles: 100
+          particles: 180
           line: true
           strokeFrom: 2
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
-          length: 180
+          length: 300
           cone: 360
-          lifetime: 25    
+          lifetime: 35   
         }
         {
           type: WaveEffect
