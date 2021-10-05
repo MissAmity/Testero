@@ -198,7 +198,7 @@ ammoTypes: {
   }
   blast-compound: {
     type: BasicBulletType
-    damage: 530
+    damage: 1400
     width: 20
     height: 20
     sprite: testero-octagon
@@ -208,7 +208,7 @@ ammoTypes: {
     lifetime: 180
     speed: 3
     shrinkY: 0
-    reloadMultiplier: 0.07
+    reloadMultiplier: 0.04
     ammoMultiplier: 1
     smokeEffect: {
       type: ParticleEffect
@@ -248,7 +248,7 @@ ammoTypes: {
     traileColor: ff6e30
     trailWidth: 10
     trailLength: 21
-    splashDamage: 250
+    splashDamage: 1250
     splashDamageRadius: 100
     status: blasted
     trailEffect: {
