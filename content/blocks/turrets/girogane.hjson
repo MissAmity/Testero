@@ -246,7 +246,7 @@ ammoTypes: {
     }
     trailInterval: 0.4
     traileColor: ff6e30
-    trailWidth: 14
+    trailWidth: 10
     trailLength: 21
     splashDamage: 250
     splashDamageRadius: 100
@@ -283,13 +283,13 @@ ammoTypes: {
           length: 300
           cone: 360
           lifetime: 50
-          startDelay: 30
+          startDelay: 40
         }
         {
           type: WaveEffect
           lifetime: 85
-          sizeFrom: 100
-          sizeTo: 100
+          sizeFrom: 140
+          sizeTo: 140
           line: true
           strokeFrom: 8
           strokeTo: 0
@@ -316,8 +316,8 @@ ammoTypes: {
         {
           type: WaveEffect
           lifetime: 85
-          sizeFrom: 100
-          sizeTo: 100
+          sizeFrom: 140
+          sizeTo: 140
           line: true
           strokeFrom: 8
           strokeTo: 0
@@ -330,8 +330,8 @@ ammoTypes: {
         {
           type: WaveEffect
           lifetime: 85
-          sizeFrom: 100
-          sizeTo: 100
+          sizeFrom: 140
+          sizeTo: 140
           line: true
           strokeFrom: 8
           strokeTo: 0
@@ -345,9 +345,9 @@ ammoTypes: {
           type: WaveEffect
           lifetime: 30
           sizeFrom: 0
-          sizeTo: 100
+          sizeTo: 140
           line: true
-          strokeFrom: 200
+          strokeFrom: 100
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
@@ -359,9 +359,9 @@ ammoTypes: {
           type: WaveEffect
           lifetime: 30
           sizeFrom: 0
-          sizeTo: 100
+          sizeTo: 140
           line: true
-          strokeFrom: 200
+          strokeFrom: 100
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
