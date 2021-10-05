@@ -201,11 +201,11 @@ ammoTypes: {
     damage: 530
     width: 20
     height: 20
-    sprite: octagon
+    sprite: testero-mod-octagon
     spin: 5
     frontColor: ff6e30
     backColor: ff6e30
-    lifetime: 120
+    lifetime: 180
     speed: 3
     shrinkY: 0
     reloadMultiplier: 0.1
@@ -283,11 +283,11 @@ ammoTypes: {
         }
         {
           type: WaveEffect
-          lifetime: 95
+          lifetime: 85
           sizeFrom: 100
           sizeTo: 100
           line: true
-          strokeFrom: 4
+          strokeFrom: 8
           strokeTo: 0
           colorFrom: ff6e30
           colorTo: ffffff0
