@@ -1,0 +1,52 @@
+type: LaserTurret
+name: "[cyan]Accelerator"
+description: "[cyan]a powerful cannon that has a accelerator rail that accelorates over-charge energy to eradicate its prey 
+[grey]a turret that contians very heavy powerful weapon has enough power to eradicate its large heavy ships. Because its weight, has limited movement so its designed for slow heavy large enemy."
+details: "[grey]a plenitary turret that has [red]distructive power[grey], powerful yet slow. Can you beat it?"
+health: 2460
+size: 5
+reloadTime: 482
+shootSound: laser
+cooldown: 0.10
+heatColor: 96e3ff
+range: 682.75
+recoilAmount: 4
+restitution: 110.03
+chargeTime: 36.02
+hasPower: true
+chargeEffects: 3
+accurateDelay: false
+chargeEffect: lancerLaserCharge
+powerUse: 95
+shots: 1
+rotateSpeed: 8
+  shootType: {
+    type: LaserBulletType,
+    damage: 95000
+    sideAngle: 20
+    sideWidth: 3.5
+    sideLength: 90
+    width: 52
+    length: 692.75
+    shootEffect: shockwave
+    status: shocked       
+    shootEffect: none
+    smokeEffect: shootBigSmoke2
+    sideAngle: 90
+    sideLength: 90
+    sideWidth: 3
+  }
+consumes: {
+  liquid: {
+    liquid: "cryofluid"
+    amount: 0.5
+    booster: true
+  }   
+}
+requirements:[
+  copper/50
+  lead/40
+  silicon/25
+]
+research: arc
+category: turret
