@@ -1,7 +1,9 @@
 type: LaserTurret
+size: 6
 category: turret
 requirements: [
   silicon/15000
 ]
 shootType: {
   type: ContinuosLaserBulletType
+}
