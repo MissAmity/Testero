@@ -1,0 +1,7 @@
+type: LaserTurret
+category: turret
+requirements: [
+  silicon/15000
+]
+shootType: {
+  type: ContinuosLaserBulletType
