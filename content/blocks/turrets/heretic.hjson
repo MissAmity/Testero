@@ -1,9 +1,20 @@
 type: LaserTurret
 size: 6
 category: turret
+reload: 4
 requirements: [
   silicon/15000
 ]
 shootType: {
-  type: ContinuosLaserBulletType
+  type: BasicBulletType
+  damage: 50000
+  shrinkY: 0
+  sprite: circle-bullet
+  length: 5
+  width: 5
+  trailWidth: 5
+  trailLength: 9999
+  lifetime: 850
+  weaveScale: 100
+  weaveMag: 100
 }
