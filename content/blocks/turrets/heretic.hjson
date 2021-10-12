@@ -13,8 +13,9 @@ shootType: {
   length: 10
   width: 10
   trailWidth: 8.5
-  trailLength: 999999999999
-  lifetime: 850
-  weaveScale: 10
+  trailLength: 999
+  lifetime: 350
+  speed: 45
+  weaveScale: 50
   weaveMag: 1
 }
