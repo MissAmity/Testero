@@ -10,11 +10,11 @@ shootType: {
   damage: 50000
   shrinkY: 0
   sprite: circle-bullet
-  length: 5
-  width: 5
-  trailWidth: 5
-  trailLength: 9999
+  length: 10
+  width: 10
+  trailWidth: 8.5
+  trailLength: 999999999999
   lifetime: 850
-  weaveScale: 100
-  weaveMag: 100
+  weaveScale: 10
+  weaveMag: 1
 }
