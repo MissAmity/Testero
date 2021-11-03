@@ -1,0 +1,46 @@
+type: mech
+speed: 0.5
+health: 250
+armor: 6
+lightRadius: 30
+lightColor: ffa665
+weapons: [
+  {
+  name: Jackhammer
+  top: false
+  x: 0
+  y: 0
+  reload: 60
+  recoil: 0
+  shootY: 0.5
+  shootSound: shotgun
+  shake: 1
+  bullet: {
+  type: ShrapnelBulletType
+  damage: 75
+  collidesTeam: false
+  recoil: 1
+  length: 10
+  width: 5
+  fromColor: 000000
+  toColor: 000000
+  lightColor: ffa665
+  shootEffect: {
+  //the problem was particleEffect
+  type: ParticleEffect
+  particles: 8
+  length: 20
+  lifetime: 20
+  line: true
+  lenFrom: 10
+  lenTo: 0
+  strokeFrom: 0
+  strokeTo: 1
+  colorFrom: 000000
+  colorTo: 000000
+  }
+  }
+  }
+  ]
+  
+  
